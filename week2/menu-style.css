@@ -4,7 +4,7 @@ body {
 
 header {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 section {
@@ -14,6 +14,7 @@ section {
 }
 
 ul {
+    font-size: 20px;
     /* margins */
     margin-right: auto;
     margin-left: 9%;
@@ -21,4 +22,12 @@ ul {
 
 .main-title {
     text-shadow: 4px 4px #EFFFFA;
+}
+
+nav {
+    background-color: darkslategrey;
+}
+
+footer {
+    background-color: darkslategrey;
 }
