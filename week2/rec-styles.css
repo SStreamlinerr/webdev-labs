@@ -1,0 +1,57 @@
+
+
+.main-title {
+    display: inline-flex;
+}
+.main-title div {
+    padding-inline: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: #333333;
+    padding-left: 1rem;
+    color: white;
+    justify-content: left;
+}
+
+nav div {
+    padding-inline: 10px;
+}
+
+main {
+    display: flex;
+}
+
+.home-pane {
+    flex: 7;
+    background-color: #eeeeee;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.side-pane {
+    flex: 3;
+    background-color: #dddddd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    flex: 3;
+    padding-inline: 1rem;
+    background-color: #d3d3d3;
+}
+
+footer div:first-child {
+    background-color: #808080;
+}
+
+footer div:last-child {
+    background-color: #a9a9a9;
+}
