@@ -1,38 +1,57 @@
-body {
-    font-family: "Gideon Roman";
-}
+
 
 .main-title {
-
+    display: inline-flex;
+}
+.main-title div {
+    padding-inline: 10px;
 }
 
 nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #2b2b2b;
+    display: flex;
+    background-color: #333333;
+    padding-left: 1rem;
     color: white;
+    justify-content: left;
+}
+
+nav div {
+    padding-inline: 10px;
+}
+
+main {
+    display: flex;
 }
 
 .home-pane {
-    background-color: #EFFFFA;
+    flex: 7;
+    background-color: #eeeeee;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .side-pane {
-    background-color: #8e8e8e;
+    flex: 3;
+    background-color: #dddddd;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer {
-
+    display: flex;
+    justify-content: space-between;
 }
 
-footer.left {
-
+footer div {
+    flex: 3;
+    padding-inline: 1rem;
+    background-color: #d3d3d3;
 }
 
-footer.right {
-
+footer div:first-child {
+    background-color: #808080;
 }
 
-footer.centre {
-
+footer div:last-child {
+    background-color: #a9a9a9;
 }
